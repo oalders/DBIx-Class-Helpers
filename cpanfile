@@ -7,6 +7,8 @@ requires 'String::CamelCase' => 0;
 requires 'namespace::clean' => 0.23;
 requires 'List::Util' => 0;
 requires 'DBIx::Class::Candy' => 0.001003;
+requires 'DBIx::Introspector';
+requires 'Module::Runtime';
 
 on test => sub {
    requires 'Test::More' => 0.94;
